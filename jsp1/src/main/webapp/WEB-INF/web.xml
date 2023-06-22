@@ -12,8 +12,8 @@
 		<location>/error/error_null.jsp</location>
 	</error-page>
 	-->
-	
-	<!-- error-code : 에러코드를 설정하기 위한 엘리먼트 -->
+	<!--  
+	error-code : 에러코드를 설정하기 위한 엘리먼트
 	<error-page>
 		<error-code>500</error-code>
 		<location>/error/error_500.jsp</location>
@@ -28,7 +28,7 @@
 		<error-code>404</error-code>
 		<location>/error/error_404.jsp</location>
 	</error-page>
-	  
+	  -->
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.jsp</welcome-file>
