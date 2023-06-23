@@ -24,6 +24,10 @@
 <body>
 	<h1>로그인 사용자 전용 페이지</h1>
 	<hr>
+	<p><%=loginId %>님, 환영합니다.&nbsp;&nbsp;
+	<a href="logout_action.jsp">[로그아웃]</a>&nbsp;&nbsp;
+	<a href="login_form.jsp">[메인으로]</a> </p>
+	<hr>
 	<p>로그인 사용자만 확인 가능한 내용입니다.</p>
 	<p>로그인 사용자만 확인 가능한 내용입니다.</p>
 	<p>로그인 사용자만 확인 가능한 내용입니다.</p>

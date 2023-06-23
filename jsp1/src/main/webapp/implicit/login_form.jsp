@@ -2,7 +2,9 @@
     pageEncoding="UTF-8"%>
 <%-- 사용자로부터 로그인 처리에 필요한 인증정보(아이디와 비밀번호)를 입력받기 JSP 문서 --%>
 <%-- => [로그인] 태그를 클릭한 경우 [login_action.jsp] 문서를 요청하여 페이지 이동 - 입력값(인증정보) 전달 --%>
+<%-- 로그인 상태의 사용자인 경우 환영메세지를 전달하여  --%>
 <%
+
 	/*
 	//전달된 에러메세지를 반환받아 저장
 	String message=request.getParameter("message");
@@ -75,5 +77,6 @@
 		loginForm.submit();
 	}
 	</script>
+	
 </body>
 </html>
